@@ -1,0 +1,23 @@
+{
+  "name": "teste-npm",
+  "version": "1.0.0",
+  "description": "Um teste de npm",
+  "main": "testenpm.js",
+  "scripts": {
+    "start": "node testenpm.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guifederico/rep.git"
+  },
+  "author": "Gui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guifederico/rep/issues"
+  },
+  "homepage": "https://github.com/guifederico/rep#readme",
+  "dependencies": {
+    "mathjs": "^7.5.1"
+  }
+}

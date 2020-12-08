@@ -1,0 +1,23 @@
+<div class="apresentacao">
+    <div class="apres">
+        <div class="form">
+            <p class="formulariocab">
+                <%= subtitulo %>
+            </p>
+            <p class="formulario">
+                Ordenar um array usando o
+            </p>
+            <p class="formulario">
+                método Quicksort.
+            </p>
+            <p class="formularioQ">
+                Informe os números para ordenar.
+            </p>
+            <form method="POST" action="/ordenada" autocomplete="off">
+                <%- include("./elementos/inputVetor") %>
+                </br>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+</div>
