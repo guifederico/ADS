@@ -1,0 +1,9 @@
+<%- contentFor('body') %>
+    <p>
+        <%-include('./ola')%>
+    </p>
+    <form method="POST" action="/soma">
+        <input name="a" type="text" />
+        <input name="b" type="text" >
+        <button type="submit">Enviar</button>
+    </form>
