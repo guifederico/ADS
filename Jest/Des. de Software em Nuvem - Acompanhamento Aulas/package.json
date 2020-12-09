@@ -1,23 +1,25 @@
 {
-  "name": "calculadora-web",
+  "name": "caculadora",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
-    "start": "nodemon app.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "main": "app.js",
   "dependencies": {
     "body-parser": "^1.19.0",
     "ejs": "^3.1.5",
     "express": "^4.17.1",
     "express-ejs-layouts": "^2.5.0",
-    "layouts": "^3.0.2"
+    "layouts": "^3.0.2",
+    "math.js": "^1.1.46",
+    "mathjs": "^8.1.0",
+    "nodemon": "^2.0.6"
   },
   "devDependencies": {
-    "nodemon": "^2.0.6"
-  }
+    "jest": "^26.6.3"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
 }
